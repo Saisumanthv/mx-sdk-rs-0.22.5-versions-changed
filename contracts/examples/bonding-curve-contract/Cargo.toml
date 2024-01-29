@@ -1,0 +1,22 @@
+[package]
+name = "bonding-curve-contract"
+version = "0.0.0"
+authors = ["Alin Cruceat <alin.cruceat@dharitri.com>"]
+edition = "2018"
+publish = false
+
+[lib]
+path = "src/lib.rs"
+
+[dependencies.dharitri-wasm-module-bonding-curve]
+version = "0.2.6"
+path = "../../modules/dharitri-wasm-module-bonding-curve"
+
+[dependencies.dharitri-wasm]
+version = "0.2.6"
+path = "../../../dharitri-wasm"
+
+[dev-dependencies.dharitri-wasm-debug]
+version = "0.2.6"
+path = "../../../dharitri-wasm-debug"
+

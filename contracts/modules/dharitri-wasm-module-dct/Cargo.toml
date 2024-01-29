@@ -1,0 +1,22 @@
+[package]
+name = "dharitri-wasm-module-dct"
+version = "0.2.6"
+edition = "2018"
+
+authors = ["Dorin Iancu <dorin.iancu@dharitri.com>", "Dharitri Network <contact@dharitri.com>"]
+license = "GPL-3.0-only"
+readme = "README.md"
+repository = "https://github.com/Battula-anil-app-could/dx-sdk-rs-new"
+homepage = "https://dharitri.com/"
+documentation = "https://docs.dharitri.com/"
+description = "Dharitri WebAssembly smart contract module for using a single DCT"
+keywords = ["dharitri", "wasm", "webassembly", "blockchain", "contract"]
+categories = ["no-std", "wasm", "cryptography::cryptocurrencies"]
+
+[dependencies.dharitri-wasm]
+version = "0.2.6"
+path = "../../../dharitri-wasm"
+
+[dev-dependencies.dharitri-wasm-debug]
+version = "0.2.6"
+path = "../../../dharitri-wasm-debug"
